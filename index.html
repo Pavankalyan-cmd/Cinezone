@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CineZone</title>
+    <link
+      rel="icon"
+      href="https://seeklogo.com/images/M/movie-time-cinema-logo-8B5BE91828-seeklogo.com.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="nav-bar">
+      <div>
+        <img
+          src="https://seeklogo.com/images/M/movie-time-cinema-logo-8B5BE91828-seeklogo.com.png"
+        />
+        <a href="" class="a"><span> CineZone </span></a>
+
+        <input
+          type="text"
+          placeholder="Search for movies and more"
+          id="search"
+          class="int"
+        />
+        <button type="submit" id="Search-btn">Search</button>
+      </div>
+      <div>
+        <i class="fa-solid fa-bars hamburger"></i>
+        <a href="index.php">Login</a>
+        <a href="movies.php">Register</a>
+      </div>
+    </div>
+    <!-- <h1 id="loading">loading..</h1> -->
+    <div class="loader" id="loading" style="display: none"></div>
+
+    <div class="movie-container" id="container">
+      <!-- loadingAnimation.style.display = "block"; -->
+    </div>
+    <div id="error"></div>
+    <script
+      src="https://kit.fontawesome.com/4e7cee9428.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>
